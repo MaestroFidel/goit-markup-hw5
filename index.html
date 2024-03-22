@@ -454,8 +454,7 @@
         <div class="footer-subscribe">
           <p class="foot-label">Subscribe</p>
           <form class="subscribe-form" name="subscribe-form" autocomplete="off">
-            <label class="sub-lab" for="sub-inp"></label>
-            <div class="subscribe-input">
+            <label class="sub-lab" for="sub-inp">
               <input
                 class="input-bord"
                 type="email"
@@ -463,20 +462,19 @@
                 placeholder="E-mail"
                 id="sub-inp"
               />
-
-              <button class="Subscribe-button" type="submit">
-                Subscribe
-                <svg
-                  class="sub-ico"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <use href="./images/icons.svg#icon-TelegramW"></use>
-                </svg>
-              </button>
-            </div>
+            </label>
+            <button class="Subscribe-button" type="submit">
+              Subscribe
+              <svg
+                class="sub-ico"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <use href="./images/icons.svg#icon-TelegramW"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -484,7 +482,7 @@
     <div class="modal-overlay">
       <div class="modal-window">
         <button type="button" class="close-btn">
-          <svg class="close-icon" width="8" height="8" fill="none">
+          <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -500,7 +498,7 @@
                 name="user-name"
                 id="user-name"
               />
-              <svg class="modal-icon" width="18" height="18">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-pers"></use>
               </svg>
             </div>
@@ -515,7 +513,7 @@
                 name="user-phone"
                 id="user-phone"
               />
-              <svg class="modal-icon" width="18" height="18">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -530,33 +528,36 @@
                 name="user-mail"
                 id="user-mail"
               />
-              <svg class="modal-icon" width="18" height="18">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
-          <div class="input-modal">
-            <label class="input-label">Comment</label>
+          <div class="input-comment-modal">
+            <label class="input-label" for="user-comment">Comment</label>
             <textarea
               class="comment-modal"
-              name="comment"
+              name="user-comment"
               placeholder="Text input"
+              id="user-comment"
             ></textarea>
           </div>
-          <input
-            class="check-btn visually-hidden"
-            type="checkbox"
-            name="Check-btn"
-            id="check-btn"
-            checked
-          />
-          <label class="check-text" for="check-btn"
-            ><span class="check-wind">
-              <svg class="checked" width="10" height="8">
-                <use href="./images/icons.svg#icon-Check"></use></svg></span
-            >I accept the terms and conditions of the
-            <a href="" class="check-link"> Privacy Policy</a>
-          </label>
+          <div class="checkbox">
+            <input
+              class="check-btn visually-hidden"
+              type="checkbox"
+              name="Check-btn"
+              id="check-btn"
+              checked
+            />
+            <label class="check-text" for="check-btn"
+              ><span class="check-wind">
+                <svg class="checked" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Check"></use></svg></span
+              >I accept the terms and conditions of the
+              <a href="" class="check-link"> Privacy Policy</a>
+            </label>
+          </div>
           <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
