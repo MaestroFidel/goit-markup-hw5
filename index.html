@@ -479,7 +479,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal-window">
         <button type="button" class="close-btn">
           <span class="cls-icn">
@@ -491,9 +491,8 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
 
         <form class="user-contacts">
-          
-            <label class="input-label" for="user-name">Name</label>
-            <div class="input-modal">
+          <label class="input-label" for="user-name">Name</label>
+          <div class="input-modal">
             <input
               class="inp-modal"
               type="text"
@@ -504,8 +503,8 @@
               <use href="./images/icons.svg#icon-pers"></use>
             </svg>
           </div>
-          <div class="input-modal">
-          <label class="input-label"  for="user-phone">Phone</label>
+
+          <label class="input-label" for="user-phone">Phone</label>
           <div class="input-modal">
             <input
               class="inp-modal"
@@ -517,8 +516,8 @@
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
-          <div class="input-modal">
-          <label class="input-label"  for="user-mail">Email</label>
+
+          <label class="input-label" for="user-mail">Email</label>
           <div class="input-modal">
             <input
               class="inp-modal"
@@ -531,13 +530,14 @@
             </svg>
           </div>
           <div class="input-modal">
-          <label class="input-label"  for="Comment">Comment</label>
-          <textarea
-            class="comment-modal"
-                        name="comment"
-            placeholder="Text input"
-            id="comment"
-          ></textarea>
+            <label class="input-label" for="Comment">Comment</label>
+            <textarea
+              class="comment-modal"
+              name="comment"
+              placeholder="Text input"
+              id="comment"
+            ></textarea>
+          </div>
           <input
             class="check-btn visually-hidden"
             type="checkbox"
@@ -546,13 +546,13 @@
             checked
           />
           <label class="check-text" for="check-btn"
-            ><span class="check-wind"> <svg class="checked" width="10" height="8">
-              <use href="./images/icons.svg#icon-Check"></use>
-            </svg></span>I accept the terms and conditions
-            of the <a href="" class="check-link"> Privacy Policy</a>
+            ><span class="check-wind">
+              <svg class="checked" width="10" height="8">
+                <use href="./images/icons.svg#icon-Check"></use></svg></span
+            >I accept the terms and conditions of the
+            <a href="" class="check-link"> Privacy Policy</a>
           </label>
           <button type="submit" class="modal-button">Send</button>
-          
         </form>
       </div>
     </div>
