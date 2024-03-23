@@ -780,12 +780,12 @@ footer {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.check-btn:checked + .check-text span {
+.check-btn:checked + .check-text > span {
   background-color: #404bbf;
 }
-.check-btn:checked + .check-text span {
+.check-btn:checked + .check-text > span {
   border: none;
 }
-.check-btn:checked + .check-text span {
+.check-btn:checked + .check-text > span {
   fill: #f4f4fd;
 }
