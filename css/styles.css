@@ -762,7 +762,7 @@ footer {
   color: #8e8f99;
   font-size: 12px;
   /* display: flex; */
-  align-items: center;
+  /* align-items: center; */
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
