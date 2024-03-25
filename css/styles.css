@@ -515,7 +515,7 @@ footer {
   gap: 16px;
   background-color: #4d5ae5;
   color: #ffffff;
-  margin-left: 24px;
+
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -531,7 +531,7 @@ footer {
 
 .footer-subscribe {
   display: flex;
-  margin-left: 0, auto;
+  flex-direction: column;
 }
 .input-bord {
   border: 1px solid #ffffff;
@@ -623,7 +623,6 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 48px;
   margin-bottom: 16px;
 }
 
@@ -686,7 +685,6 @@ footer {
   padding: 8px 16px;
   border-color: transparent;
   outline: transparent;
-  margin-bottom: 16px;
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -723,8 +721,7 @@ footer {
   background-color: #404bbf;
   border: none;
 }
-.close-btn:hover,
-:focus {
+.close-btn:hover {
   background-color: #404bbf;
   border: none;
 }
